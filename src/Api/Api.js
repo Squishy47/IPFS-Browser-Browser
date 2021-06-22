@@ -1,8 +1,5 @@
-import config from "./../config.js";
 import IPFS from "ipfs";
-const uint8ArrayToString = require("uint8arrays/to-string");
-const uint8ArrayFromString = require("uint8arrays/from-string");
-const uint8ArrayConcat = require("uint8arrays/concat");
+
 /**
  * Fetch API to list files from directory
  * @param {String} path
